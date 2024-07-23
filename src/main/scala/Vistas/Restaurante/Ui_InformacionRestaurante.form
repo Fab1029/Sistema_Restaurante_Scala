@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Vistas.Restaurante.Ui_InformacionRestaurante">
+  <grid id="27dc6" binding="grbPrincipal" layout-manager="GridLayoutManager" row-count="14" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="605" height="470"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="77939" class="javax.swing.JLabel" binding="lblNombre">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="12"/>
+          <text value="Nombre del restaurante"/>
+        </properties>
+      </component>
+      <component id="ca0bd" class="javax.swing.JTextField" binding="txtNombreRestaurante">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="12"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c139" class="javax.swing.JLabel" binding="lblRuc">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="12"/>
+          <text value="Ruc"/>
+        </properties>
+      </component>
+      <component id="c4e93" class="javax.swing.JTextField" binding="txtRuc">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="12"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="349da" class="javax.swing.JLabel" binding="lblRazonSocial">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="12"/>
+          <text value="Razón social"/>
+        </properties>
+      </component>
+      <component id="1c6b" class="javax.swing.JTextField" binding="txtRazonSocial">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="12"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="73fda" class="javax.swing.JLabel" binding="lblDireccion">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="12"/>
+          <text value="Dirección"/>
+        </properties>
+      </component>
+      <component id="35980" class="javax.swing.JTextField" binding="txtDireccion">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="12"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5dd7b" class="javax.swing.JLabel" binding="lblEmail">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="12"/>
+          <text value="Email"/>
+        </properties>
+      </component>
+      <component id="e4e52" class="javax.swing.JTextField" binding="txtEmail">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="12"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c846a" class="javax.swing.JButton" binding="btnGuardarCambios">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="12"/>
+          <text value="Guardar cambios"/>
+        </properties>
+      </component>
+      <component id="2c629" class="javax.swing.JLabel" binding="lblTelefono">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="12"/>
+          <text value="Teléfono"/>
+        </properties>
+      </component>
+      <component id="415bc" class="javax.swing.JTextField" binding="txtTelefono">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="12"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="97709">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>

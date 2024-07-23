@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Vistas.Usuario.Ui_GestionEncargado">
+  <grid id="27dc6" binding="grbPrincipal" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="4" y="20" width="1241" height="497"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="fce0b" binding="tbEncargado">
+        <constraints/>
+        <properties>
+          <font name="SansSerif" size="12"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="3f40d" binding="grbIngresar" layout-manager="GridLayoutManager" row-count="10" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Ingresar"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="a495" class="javax.swing.JLabel" binding="lblCedulaIngresar">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value="Cédula"/>
+                </properties>
+              </component>
+              <component id="154a6" class="javax.swing.JTextField" binding="txtCedulaIngresar">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="a21f3" class="javax.swing.JLabel" binding="lblNombreIngresar">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value="Nombre y Apellido"/>
+                </properties>
+              </component>
+              <component id="9cc19" class="javax.swing.JTextField" binding="txtNombreIngresar">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="baa02" class="javax.swing.JLabel" binding="lblDireccionIngresar">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value="Dirección"/>
+                </properties>
+              </component>
+              <component id="2f244" class="javax.swing.JTextField" binding="txtDireccionIngresar">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="2509b" class="javax.swing.JLabel" binding="lblClaveIngresar">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value="Contraseña"/>
+                </properties>
+              </component>
+              <grid id="b2bbb" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="2319a" class="javax.swing.JButton" binding="btnIngresarEncargado">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="SansSerif" size="12"/>
+                      <text value="Ingresar encargado"/>
+                    </properties>
+                  </component>
+                  <component id="5e915" class="javax.swing.JButton" binding="btnLimpiarCampos">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="SansSerif" size="12"/>
+                      <text value="Limpiar campos"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <vspacer id="aefdd">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="4d144" class="javax.swing.JPasswordField" binding="txtClaveIngresar">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+            </children>
+          </grid>
+          <grid id="a1038" binding="grbModificar" layout-manager="GridLayoutManager" row-count="10" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Modificar"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="3552d" class="javax.swing.JLabel" binding="lblCedulaModificar">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value="Ingrese cédula"/>
+                </properties>
+              </component>
+              <component id="7e441" class="javax.swing.JTextField" binding="txtCedulaModificar">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="49c58" class="javax.swing.JLabel" binding="lblNombreModificar">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value="Nombre y Apellido"/>
+                </properties>
+              </component>
+              <component id="d3863" class="javax.swing.JTextField" binding="txtNombreModifcar">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="9ad6d" class="javax.swing.JLabel" binding="lblClaveModificar">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value="Contraseña"/>
+                </properties>
+              </component>
+              <component id="50785" class="javax.swing.JPasswordField" binding="txtClaveModificar">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <vspacer id="39b7f">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="ea48e" class="javax.swing.JLabel" binding="lblDireccionModificar">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value="Dirección"/>
+                </properties>
+              </component>
+              <component id="6fa70" class="javax.swing.JTextField" binding="txtDireccionModificar">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="b750d" class="javax.swing.JButton" binding="btnGuardarCambios">
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value="Guardar cambios"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="e9a41" binding="grbEliminar" layout-manager="GridLayoutManager" row-count="8" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Eliminar"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="815c0" class="javax.swing.JLabel" binding="lblCedulaEliminar">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value="Ingrese cédula"/>
+                </properties>
+              </component>
+              <component id="75081" class="javax.swing.JTextField" binding="txtCedulaEliminar">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="7bda8" class="javax.swing.JLabel" binding="lblNombreEliminar">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value="Nombre y Apellido"/>
+                </properties>
+              </component>
+              <component id="c033" class="javax.swing.JTextField" binding="txtNombreEliminar">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <enabled value="false"/>
+                  <font name="SansSerif" size="12"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="8a0e5" class="javax.swing.JLabel" binding="lblDireccionEliminar">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value="Dirección"/>
+                </properties>
+              </component>
+              <component id="68176" class="javax.swing.JTextField" binding="txtDireccionEliminar">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <enabled value="false"/>
+                  <font name="SansSerif" size="12"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="16f2" class="javax.swing.JButton" binding="btnEliminar">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="SansSerif" size="12"/>
+                  <text value="Eliminar encargado"/>
+                </properties>
+              </component>
+              <vspacer id="1bf0e">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="e11f" binding="grbListar" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Listar"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="a50c">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="4ef70" class="javax.swing.JTable" binding="encargados">
+                    <constraints/>
+                    <properties>
+                      <enabled value="false"/>
+                      <font name="SansSerif" size="12"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+      <component id="f679a" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <icon value="Vistas/Complementos/logoRestaurante.jpg"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
